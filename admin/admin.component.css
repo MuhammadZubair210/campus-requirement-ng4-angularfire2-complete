@@ -1,0 +1,35 @@
+/* #student{
+    text-align:left;
+} */
+table{
+    background-color: peru;
+}
+
+#company{
+    text-align:left;
+}
+#student{
+    text-align:right;
+}
+button{
+    background-color: green;
+    float:right;
+    color:white;
+}
+h2{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 15px black;
+}
+
+a{
+    cursor: pointer;
+    background-color: gainsboro;
+    text-decoration: none;
+    margin:0.1%;
+    width: 7px;
+    height:40px
+}
+#logout{
+    float:right;
+}

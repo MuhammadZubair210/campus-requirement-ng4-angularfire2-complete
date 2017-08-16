@@ -1,0 +1,18 @@
+<h1>
+    Admin LogIn
+</h1>
+
+<div>
+    <form (ngSubmit)="login()">
+        <md-input-container>
+            <input mdInput type="email" placeholder="email" name="email" [(ngModel)]="email" required>
+        </md-input-container><br>
+        <md-input-container>
+            <input mdInput type="password" placeholder="password" name="password" [(ngModel)]="password" required>
+        </md-input-container>
+        <br>
+        <button md-button type="submit" name="submit" [disabled]="!email || !password">LogIn</button>
+        <button md-raised-button routerLink="/home">Cancel</button>
+
+    </form>
+</div>

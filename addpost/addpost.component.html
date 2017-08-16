@@ -1,0 +1,16 @@
+
+<h1>Job Posting Portal</h1>
+<div>
+
+<md-input-container>
+
+  <input mdInput type="text" placeholder="Company" name="posts" [(ngModel)]="posts" required>
+</md-input-container>
+<br>
+
+<textarea type="text" rows="15" cols="40" placeholder="description" name="description" [(ngModel)]="describe" required></textarea>
+<br>
+<button md-raised-button (click)="post()">Add Post</button>
+
+<button md-raised-button routerLink="/companydashboard">Cancel</button>
+</div>

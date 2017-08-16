@@ -1,0 +1,25 @@
+<button id="butt" class="btn btn-success btn-sm center-block" routerLink="/studentlogin">Student login</button>
+<button id="but" class="btn btn-success btn-sm center-block" routerLink="/companylogin">Company login</button>
+
+    <h1>
+        Register User
+    </h1>
+<div>
+
+    <md-input-container>
+        <input mdInput placeholder="name" type="text" name="text" [(ngModel)]="name">
+    </md-input-container><br>
+    <md-input-container>
+        <input mdInput placeholder="Email" type="email" name="email" [(ngModel)]="email">
+    </md-input-container><br>
+    <md-input-container>
+        <input mdInput placeholder="Password" type="password" name="password" [(ngModel)]="password">
+    </md-input-container><br>
+    <md-radio-group [(ngModel)]="type">
+        <md-radio-button value="Student">Student</md-radio-button>
+        <md-radio-button value="Company">Company</md-radio-button>
+    </md-radio-group><br>
+    <button class="same" md-button (click)="signup()" [disabled]="!email || !password || !type">Register</button>
+    <button class="same" md-button routerLink="/home">Cancel</button>
+
+</div>

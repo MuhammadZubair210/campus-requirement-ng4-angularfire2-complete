@@ -1,0 +1,23 @@
+button{
+    background-color: pink;
+}
+div{
+    text-align:center;
+    border: 2px solid pink;
+    border-radius: 10px;
+        background-color: pink;
+
+     margin-top: 5%;
+    margin-right: 30%;
+    margin-left: 30%; 
+
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+}
+button{
+    margin:5%;
+}

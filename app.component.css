@@ -1,0 +1,57 @@
+ button{
+    /* padding: 2em 23em; */
+     background-color: pink; 
+
+}
+    div{
+        background-color: white;
+        color:black;
+        text-align: center;
+        padding: 10px;
+        height: 60%;
+        width: 40%;
+        margin: 7% 15% 20% 30%;
+    }
+p{
+    color:white;
+}
+h1{
+    text-align: center;
+    width:70%;
+    margin: 200px auto;
+    background-color: pink;
+    
+    
+
+}
+/*
+ button{
+     margin:1%; 
+    text-align: center; 
+     background-color: green; 
+     color: white; 
+     border-radius: 10px; 
+    text-decoration: none;
+    width:100px;
+     height:40px; 
+    cursor: pointer;
+    border:none; 
+     /* float: right;  */
+/* }  */
+/*
+#nav{
+    background-color: gold;
+    border-radius: 10px;
+}
+
+#right{
+        text-align: right;
+
+}
+    h1{
+        float: left;
+        color: peru;
+        font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+
+    } */
+    

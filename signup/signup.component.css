@@ -1,0 +1,32 @@
+.same{
+    background-color: pink;
+
+}
+div{
+    text-align:center;
+    border: 2px solid wheat;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-right: 30%;
+    margin-left: 30%;
+
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 20px black;
+        margin-top: 5%;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+ button{
+    margin:5%;
+} 
+div{
+    background-color: wheat;
+}
+#butt , #but{
+    float:right;
+    margin: 2% 5% 0% 0%; 
+}

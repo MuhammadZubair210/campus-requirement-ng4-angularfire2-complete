@@ -1,0 +1,66 @@
+<button id="button" md-button (click)="logout()">logout</button>
+
+
+<h1>
+  Update Company profile
+</h1>
+<!-- <button routerLink="/addpost">Add posts</button> -->
+<!-- <button routerLink="/viewpost">View posts</button> -->
+<!-- <button (click)="s()"></button> -->
+<div>
+  <form [formGroup]="form" (ngSubmit)="submitCD()">
+    <md-input-container>
+      <input mdInput type="text" placeholder="companyname" formControlName="companyname" required>
+    </md-input-container><br>
+    <md-input-container>
+      <input mdInput type="text" placeholder="mainservices" formControlName="mainservices" required>
+    </md-input-container><br>
+    <md-input-container>
+      <input mdInput type="address" placeholder="Address" formControlName="address" required>
+    </md-input-container><br>
+    <!-- <md-input-container>
+    </md-input-container> -->
+
+
+    <md-input-container class="example-full-width">
+      <span mdPrefix>+92 &nbsp;</span>
+      <input mdInput type="number" placeholder="Number" formControlName="contact" required>
+
+      <md-icon mdSuffix>mode_edit</md-icon>
+    </md-input-container>
+    <br>
+
+    <button md-raised-button type="submit" [disabled]="">Done</button>
+
+
+    <br>
+    <!-- <button type="submit">register</button> -->
+  </form>
+</div>
+<h2>STUDENTS LIST</h2>
+<table class="table table-sm">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>NAME</th>
+      <th>CGPA</th>
+      <th>Qualification</th>
+      <th>Program</th>
+      <th>Contact</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let st of student | async; let i = index">
+      <th scope="row">{{i+1}}</th>
+      <td>{{st.name}}</td>
+      <td>{{st.cgpa}}</td>
+      <td>{{st.qualification}}</td>
+      <td>{{st.program}}</td>
+      <td>{{st.contact}}</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<button md-button routerLink="/companydashboard">Cancel</button>

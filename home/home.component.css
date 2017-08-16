@@ -1,0 +1,25 @@
+body{
+    background-color: pink;
+}
+button{
+        margin:2% 5% 3% 27%;
+        width: 50%;
+        height: 70px;
+        text-align: center;
+
+}
+
+ h1{
+font-size: 50px;
+text-align: center;
+color: wheat;
+text-shadow: 2px 2px 10px black;
+} 
+#main{
+    background-color: tan}
+#nav{
+     margin:2% 5% 3% 27%;
+        width: 50%;
+        height: 70px;
+        text-align: center;
+}

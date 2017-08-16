@@ -1,0 +1,84 @@
+<button id="logout" md-button (click)="logout()">logout</button>
+<h1>
+  Complete Your Details
+</h1>
+<div id="div1">
+  <form [formGroup]="fm" (ngSubmit)="submit(fm.value)">
+    <md-input-container>
+
+      <input mdInput type="text" placeholder="Name" formControlName="name" required>
+    </md-input-container>
+    <md-input-container>
+
+      <input mdInput type="text" placeholder="Qualification" formControlName="qualification" required>
+    </md-input-container>
+    <md-input-container>
+
+      <input mdInput type="text" placeholder="CGPA" formControlName="cgpa" required>
+    </md-input-container>
+    <md-input-container>
+
+      <input mdInput type="text" placeholder="Program" formControlName="program" required>
+    </md-input-container>
+    <md-input-container>
+
+      <input mdInput type="number" placeholder="Contact Number" formControlName="contact" required>
+    </md-input-container>
+
+    <br>
+    <button md-button type="submit">Update</button>
+  </form>
+</div>
+<!-- 
+<div id="div2">
+  <form [formGroup]="fm" (ngSubmit)="update(fm.value)">
+    <md-input-container>
+
+      <input mdInput type="text" placeholder="Name" formControlName="name" required>
+    </md-input-container>
+    <md-input-container>
+
+      <input mdInput type="text" placeholder="Qualification" formControlName="qualification" required>
+    </md-input-container>
+    <md-input-container>
+
+      <input mdInput type="text" placeholder="CGPA" formControlName="cgpa" required>
+    </md-input-container>
+    <md-input-container>
+
+      <input mdInput type="text" placeholder="Program" formControlName="program" required>
+    </md-input-container>
+    <md-input-container>
+
+      <input mdInput type="number" placeholder="Contact Number" formControlName="contact" required>
+    </md-input-container>
+
+    <br>
+    <button md-button type="submit">Submit</button>
+  </form>
+</div>
+
+ -->
+
+
+<hr>
+<hr>
+<div id="div2">
+<h2>Jobs by Companies</h2>
+<table class="table table-sm">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Company</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let st of arry; let i = index">
+      <th>{{i+1}}</th>
+      <th>{{st.post}}</th>
+      <th>{{st.description}}</th>
+    </tr>
+  </tbody>
+</table>
+</div>

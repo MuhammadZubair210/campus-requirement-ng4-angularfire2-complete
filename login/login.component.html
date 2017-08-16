@@ -1,0 +1,26 @@
+<!-- <div>
+     <form (ngSubmit)="login()"> 
+        <input type="text" placeholder="email" name="text" [(ngModel)]="email">
+        <input type="password" placeholder="password" name="password" [(ngModel)]="password">
+        <input type="submit" name="submit" value="login" [disabled]="!email || !password">
+    </form>
+</div> -->
+
+<h1>
+    Student LogIn
+</h1>
+
+<div>
+    <form (ngSubmit)="login()">
+        <md-input-container>
+            <input mdInput type="email" placeholder="email" name="email" [(ngModel)]="email" required>
+        </md-input-container><br>
+        <md-input-container>
+            <input mdInput type="password" placeholder="password" name="password" [(ngModel)]="password" required>
+        </md-input-container>
+        <br>
+        <button md-button type="submit" name="submit" [disabled]="!email || !password">LogIn</button>
+        <button md-button routerLink="/home">Cancel</button>
+
+    </form>
+</div>

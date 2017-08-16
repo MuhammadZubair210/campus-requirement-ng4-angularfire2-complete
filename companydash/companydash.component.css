@@ -1,0 +1,18 @@
+
+button{
+        margin:5% 5% 3% 27%;
+        width: 50%;
+        height: 70px;
+        text-align: center;
+       background-color: green;
+       color: white;
+}
+    #logout{
+        margin: 0%;
+        background-color: pink;
+        width: 8%;
+        height: 40px;
+        float: right;
+        color: black;
+
+    }

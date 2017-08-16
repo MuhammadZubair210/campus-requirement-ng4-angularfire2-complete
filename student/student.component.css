@@ -1,0 +1,49 @@
+
+#div1{
+     text-align:center;
+    border: 2px solid salmon;
+     border-radius: 10px;
+    margin-top: 5%;
+    margin-right: 30%;
+    margin-left: 30%; 
+    background-color: salmon;
+
+
+}
+#div2{
+    text-align:center;
+    border: 2px solid pink;
+    background-color: pink;
+    
+
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+       color: white;
+text-shadow: 2px 2px 5px black;
+}
+button{
+    /* margin:5%; */
+    border: none;
+    width:30%;
+    height:25%;
+    background-color: green;
+    color: white;
+}
+td{
+    background-color: pink;
+}
+ #logout{
+    width: 50px;
+    float: right;
+} 
+h2{
+    color: white;
+text-shadow: 2px 2px 5px black;
+}
+table{
+        background-color: peru;
+        text-align: center;
+
+}
